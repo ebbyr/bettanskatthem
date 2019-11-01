@@ -1,0 +1,113 @@
+<!doctype html>
+<html class="no-js" lang="">
+
+<head>
+  <meta charset="utf-8">
+  <title></title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link rel="manifest" href="site.webmanifest">
+  <link rel="apple-touch-icon" href="icon.png">
+  <!-- Place favicon.ico in the root directory -->
+
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+
+  <meta name="theme-color" content="#fafafa">
+</head>
+
+<body>
+  <!--[if IE]>
+    <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
+  <![endif]-->
+
+  <!-- Add your site or application content here -->
+  <script src="js/vendor/modernizr-3.7.1.min.js"></script>
+  <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+  <script>window.jQuery || document.write('<script src="js/vendor/jquery-3.4.1.min.js"><\/script>')</script>
+  <script src="js/plugins.js"></script>
+  <script src="js/main.js"></script>
+
+  <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
+  <script>
+    window.ga = function () { ga.q.push(arguments) }; ga.q = []; ga.l = +new Date;
+    ga('create', 'UA-XXXXX-Y', 'auto'); ga('set','transport','beacon'); ga('send', 'pageview')
+  </script>
+  <script src="https://www.google-analytics.com/analytics.js" async></script>
+
+  <div class="wrapper">
+    <header class="box header nav">
+      <a id="logga" href="index.html"><img class="logo" src="img/logo.png"></a>
+      <nav class="navbar">
+        <ul>
+          <li><a href="om-oss.html">Om oss</a></li>
+          <li><a href="#">Våra katter</a></li>
+          <li><a href="#">Kontakt</a></li>
+          <li><a href="#">Blogg</a></li>
+        </ul>
+      </nav>
+      <button onclick="myFunction()" id="menu"></button>
+
+      <script>
+        function myFunction() {
+          var x = document.getElementById("navmobile");
+          if (x.style.display === "none") {
+            x.style.display = "block";
+          } else {
+            x.style.display = "none";
+          }}
+      </script>
+
+
+
+      <section class="medier">
+        <a href="#"><img class="ikoner" src="img/facebook.png"></a>
+        <a href="#"><img class="ikoner" src="img/instagram.png"></a>
+      </section>
+    </header>
+
+    <section id="navmobile">
+      <nav>
+        <ul>
+          <li><a class="mobile" href="om-oss.html">Om oss</a></li> <br>
+          <li><a class="mobile" href="#">Våra katter</a></li><br>
+          <li><a class="mobile" href="#">Kontakt</a></li><br>
+          <li><a class="mobile" href="#">Blogg</a></li><br>
+        </ul>
+      </nav>
+    </section>
+
+    <img class="showcase" src="img/cat.jpg">
+    <main class="box main-area nested">
+  
+      <article class="katt">
+        <img class="width100" src="img/pelle.jpeg">
+        <h3>Header</h3>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolores, inventore sit iste debitis rerum eveniet optio quam quisquam incidunt ad corporis illum quos soluta vero atque est animi autem voluptatum?</p>
+      </article>
+      
+      <article class="katt">
+        <img class="width100" src="img/pelle.jpeg">
+        <h3>Header</h3>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolores, inventore sit iste debitis rerum eveniet optio quam quisquam incidunt ad corporis illum quos soluta vero atque est animi autem voluptatum?</p>
+      </article>
+      
+      <article class="katt">
+        <img class="width100" src="img/pelle.jpeg">
+        <h3>Header</h3>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolores, inventore sit iste debitis rerum eveniet optio quam quisquam incidunt ad corporis illum quos soluta vero atque est animi autem voluptatum?</p>
+      </article>
+    </main>
+    
+    
+    <footer class="box sidfot">
+      © 2019 This is the footer
+    </footer>
+    
+  </div><!--End of site wrapper -->
+</body>
+
+</html>
